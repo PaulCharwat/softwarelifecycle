@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: 185.244.164.203
+        server: 185.244.164.203/softwarelifecycle.paul-charwat.de
         username: ds_700_mhru
         password: ${{ secrets.ftp_password }}
